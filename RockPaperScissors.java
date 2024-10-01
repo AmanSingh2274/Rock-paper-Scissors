@@ -8,7 +8,7 @@ public class RockPaperScissors {
         Random random = new Random();
         
         String[] choices = {"Rock", "Paper", "Scissors"};
-        
+       
         while (true) {
             System.out.println("Enter move (Rock, Paper, Scissors). To exit the game, type \"exit\":");
             String userMove = scanner.nextLine();
